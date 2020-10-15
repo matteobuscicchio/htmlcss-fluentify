@@ -2,11 +2,11 @@
 *{
   margin: 0;
   padding: 0;
-  color: white;
   box-sizing: border-box;
 }
 
 a{
+  color: white;
   text-decoration: none;
 }
 
@@ -58,19 +58,6 @@ hr{
   clear: both;
 }
 /* /clearfix/ */
-
-/* DA CANELLARE */
-header{
-  width: 0 auto;
-}
-main{
-  width: 0 auto;
-}
-footer{
-  width: 0 auto;
-  height: 600px;
-}
-/* DA CANCELLARE  */
 /* /impostazioni generali (assegnate con frequenza)/ */
 
 
@@ -135,6 +122,7 @@ header{
   transform: translateY(-50%);
 }
 .bnr-cnt h2{
+  color: white;
   font-size: 3em;
   margin-bottom: 40px;
 }
@@ -150,7 +138,6 @@ header{
   left: 0;
 }
 .header-bottom h2{
-  color: black;
   padding-top: 30px;
   padding-bottom: 10px;
 }
@@ -184,13 +171,11 @@ header{
 
 .colonna-due{
   text-align: left;
-  color: black;
   padding: 20px;
   width: 50%;
 }
 .colonna-due h2{
   font-size: 2em;
-  color: black;
 }
 .colonna-due p{
   color: gray;
@@ -202,4 +187,21 @@ header{
 
 
 /* footer */
+.padding{
+  padding: 30px;
+}
+
+.help h2{
+  position:relative;
+}
+
+h4{
+  color: gray;
+  display: inline;
+}
+
+option{
+  color: gray;
+}
+
 /* /footer/ */
