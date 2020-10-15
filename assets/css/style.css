@@ -58,7 +58,6 @@ a{
 /* DA CANELLARE */
 header{
   width: 0 auto;
-  height: 400px;
 }
 main{
   width: 0 auto;
@@ -115,11 +114,27 @@ header{
 /* /menu/ */
 
 /* banner */
-.banner-container{
-  background-image: url();
+.banner{
+  background-image: url(../img/banner.png);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: 110% 110%;
+}
+
+.bnr-bkgrd{
+  position: relative;
+  height: calc(550px - 80px)
+}
+
+.bnr-cnt{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bnr-cnt h2{
+  font-size: 3em;
+  margin-bottom: 40px;
 }
 /* /banner/ */
 /* /nav/ */
@@ -129,7 +144,7 @@ header{
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: 0;
+  bottom: -15%;
   left: 0;
 }
 .header-bottom h2{
