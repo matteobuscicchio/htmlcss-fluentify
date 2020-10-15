@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
 /* colori principali */
 .cl-b{
   background-color: #0C325A;
@@ -30,28 +33,42 @@
 /* /float/ */
 
 /* clearfix */
-AGGIUNGERE QUI I TAG DI RIFERIMENTO:after{
+.clearfix::after{
   content: "";
   display: table;
   clear: both;
 }
 /* /clearfix/ */
+
+/* DA CANELLARE */
+header{
+  height: 400px;
+}
+main{
+  height: 400px;
+  background-color: green;
+}
+footer{
+  height: 400px;
+}
+/* DA CANCELLARE  */
 /* /impostazioni generali (assegnate con frequenza)/ */
 
 
 
 /* header */
 /* nav */
-/* /nav/ */
 
 /* logo */
 /* /logo/ */
 
 /* menu */
 /* l */
+.m-l{}
 /* /l/ */
 
 /* r */
+.m-r{}
 /* /r/ */
 
 /* l-r */
@@ -60,9 +77,22 @@ AGGIUNGERE QUI I TAG DI RIFERIMENTO:after{
 
 /* banner */
 /* /banner/ */
+/* /nav/ */
 
-/* h-bottom */
-/* /h-bottom/ */
+/* header-bottom */
+.header-bottom{
+  text-align: center;
+}
+.header-bottom h2{
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.header-bottom p{
+  color: gray;
+  padding-bottom: 30px;
+}
+/* /header-bottom/ */
 /* /header/ */
 
 
