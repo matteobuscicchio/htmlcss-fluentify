@@ -28,6 +28,14 @@
   float: left;
 }
 /* /float/ */
+
+/* clearfix */
+AGGIUNGERE QUI I TAG DI RIFERIMENTO:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* /clearfix/ */
 /* /impostazioni generali (assegnate con frequenza)/ */
 
 
@@ -60,6 +68,11 @@
 
 
 /* corpo */
+/* riga */
+/* /riga/ */
+
+/* colonna */
+/* /colonna/ */
 /* /corpo/ */
 
 
