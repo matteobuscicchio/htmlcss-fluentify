@@ -1,0 +1,68 @@
+/* impostazioni generali (assegnate con frequenza) */
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* colori principali */
+.cl-b{
+  background-color: #0C325A;
+}
+.cl-v{
+  background-color: #7CBB02;
+}
+.cl-g{
+  background-color: #D3D3D3;
+}
+/* /colori principali/ */
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+/* float */
+.fl{
+  float: left;
+}
+/* /float/ */
+/* /impostazioni generali (assegnate con frequenza)/ */
+
+
+
+/* header */
+/* nav */
+/* /nav/ */
+
+/* logo */
+/* /logo/ */
+
+/* menu */
+/* l */
+/* /l/ */
+
+/* r */
+/* /r/ */
+
+/* l-r */
+/* /l-r/ */
+/* /menu/ */
+
+/* banner */
+/* /banner/ */
+
+/* h-bottom */
+/* /h-bottom/ */
+/* /header/ */
+
+
+
+/* corpo */
+/* /corpo/ */
+
+
+
+/* footer */
+/* /footer/ */
