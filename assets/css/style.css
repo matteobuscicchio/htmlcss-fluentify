@@ -10,6 +10,10 @@ a{
   text-decoration: none;
 }
 
+hr{
+  border-style: inset;
+}
+
 /* colori principali */
 .cl-b{
   background-color: #0C325A;
@@ -61,8 +65,6 @@ header{
 }
 main{
   width: 0 auto;
-  height: 600px;
-  background-color: green;
 }
 footer{
   width: 0 auto;
@@ -163,9 +165,37 @@ header{
 
 /* corpo */
 /* riga */
+.riga{
+  width: 100%;
+}
 /* /riga/ */
 
 /* colonna */
+.colonna-uno{
+  margin-top: 80px;
+  padding: 20px;
+  width: 33.33%;
+  text-align: center;
+}
+.colonna-uno p{
+  padding: 10px;
+  color: gray;
+}
+
+.colonna-due{
+  text-align: left;
+  color: black;
+  padding: 20px;
+  width: 50%;
+}
+.colonna-due h2{
+  font-size: 2em;
+  color: black;
+}
+.colonna-due p{
+  color: gray;
+  padding: 10px;
+}
 /* /colonna/ */
 /* /corpo/ */
 
