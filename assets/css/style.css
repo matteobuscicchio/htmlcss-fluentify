@@ -20,11 +20,26 @@ a{
 .cl-g{
   background-color: #D3D3D3;
 }
+.cl-dg{
+  background-color: #A9A9A9;
+}
 /* /colori principali/ */
 
 .container{
   width: 80%;
   margin: auto;
+}
+
+.button{
+  padding: 20px 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.button-w{
+  padding: 20px 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 1px solid white;
 }
 
 /* float */
@@ -33,22 +48,25 @@ a{
 }
 /* /float/ */
 /* clearfix */
-.clearfix::after{
+/* .clearfix:after{
   content: "";
   display: table;
   clear: both;
-}
+} */
 /* /clearfix/ */
 
 /* DA CANELLARE */
 header{
-  height: 600px;
+  width: 0 auto;
+  height: 400px;
 }
 main{
+  width: 0 auto;
   height: 600px;
   background-color: green;
 }
 footer{
+  width: 0 auto;
   height: 600px;
 }
 /* DA CANCELLARE  */
@@ -65,6 +83,11 @@ header{
   font-size: 10px;
   text-transform: uppercase;
   line-height: 80px;
+}
+.navbar::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 /* logo */
 .logo{
@@ -89,6 +112,9 @@ header{
 /* /r/ */
 
 /* l-r */
+.m-l a, .m-r a{
+  padding: 10px;
+}
 /* /l-r/ */
 /* /menu/ */
 
